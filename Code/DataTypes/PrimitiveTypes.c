@@ -14,4 +14,5 @@ void main()
     char j = 99;
 
     // Print all the variables
+    printf("%d\n", a);
 }
