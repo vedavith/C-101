@@ -1,6 +1,13 @@
+//
+//  PrimitiveTypes.c
+//  C-101
+//
+//  Created by Vedavith Ravula on 04/03/23.
+//
+
 // print an integer, float and a charecter
 #include<stdio.h>
-void main() 
+void main()
 {
     int a  = 10; // +ve integer
     int b = -10; // -ve integer
