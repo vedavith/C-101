@@ -5,16 +5,18 @@
 //  Created by Vedavith Ravula on 06/03/23.
 //
 
-#define L 10;
-#define W 20;
-
 #include <stdio.h>
 
-int main()
-{
-    long area;
-    area = L * W;
-    printf("%ld\n", area);
-    return 0;
+#define LENGTH 10
+#define WIDTH  5
+
+int main() {
+
+   int area;
+  
+   area = LENGTH * WIDTH;
+   printf("value of area : %d", area);
+
+   return 0;
 }
 
