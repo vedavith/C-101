@@ -9,6 +9,8 @@
 /* Begin PBXFileReference section */
 		DB39FB7629B39E060002A217 /* PrimitiveTypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PrimitiveTypes.c; sourceTree = "<group>"; };
 		DB39FB7A29B39E620002A217 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
+		DBA7C88529B630DE001BE873 /* DefinedConstants.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DefinedConstants.c; sourceTree = "<group>"; };
+		DBA7C88629B631F0001BE873 /* Constants.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Constants.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -17,6 +19,7 @@
 			children = (
 				DB39FB7729B39E1C0002A217 /* Intro-to-C */,
 				DB39FB7329B39D290002A217 /* Data Types */,
+				DBA7C88429B63093001BE873 /* Constants */,
 			);
 			sourceTree = "<group>";
 		};
@@ -34,6 +37,15 @@
 				DB39FB7A29B39E620002A217 /* HelloWorld.c */,
 			);
 			path = "Intro-to-C";
+			sourceTree = "<group>";
+		};
+		DBA7C88429B63093001BE873 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C88529B630DE001BE873 /* DefinedConstants.c */,
+				DBA7C88629B631F0001BE873 /* Constants.c */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
