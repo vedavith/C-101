@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     int area = 0;
     area = LENGTH * WIDTH * HEIGHT;

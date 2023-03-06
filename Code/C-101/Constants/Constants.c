@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
     const int length = 10;
     const int width = 20;
