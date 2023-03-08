@@ -11,12 +11,14 @@
 		DB39FB7A29B39E620002A217 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
 		DBA7C88529B630DE001BE873 /* DefinedConstants.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DefinedConstants.c; sourceTree = "<group>"; };
 		DBA7C88629B631F0001BE873 /* Constants.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Constants.c; sourceTree = "<group>"; };
+		DBB6216829B94EBA00C3F65A /* Input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Input.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		DB39FB6B29B39CB70002A217 = {
 			isa = PBXGroup;
 			children = (
+				DBB6216729B94E9400C3F65A /* ReadInput */,
 				DB39FB7729B39E1C0002A217 /* Intro-to-C */,
 				DB39FB7329B39D290002A217 /* Data Types */,
 				DBA7C88429B63093001BE873 /* Constants */,
@@ -46,6 +48,14 @@
 				DBA7C88629B631F0001BE873 /* Constants.c */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		DBB6216729B94E9400C3F65A /* ReadInput */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6216829B94EBA00C3F65A /* Input.c */,
+			);
+			path = ReadInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

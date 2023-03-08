@@ -10,13 +10,11 @@
 #define LENGTH 10
 #define WIDTH  5
 
-int main() {
-
+int main()
+{
    int area;
-  
    area = LENGTH * WIDTH;
    printf("value of area : %d", area);
-
    return 0;
 }
 

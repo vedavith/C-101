@@ -13,13 +13,7 @@ int main()
     const int width = 1;
     const int height = 1;
     int area;
-    int lengthOverride = length;
-    lengthOverride++;
-    // length++; - cannot assign to variable 'length' with const-qualified type 'const int'
-    
-    area = lengthOverride * width * height;
+    area = length * width * height;
     printf("%d\n", area);
     return 0;
-    
-    
 }
