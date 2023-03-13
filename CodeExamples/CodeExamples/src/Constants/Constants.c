@@ -7,7 +7,9 @@
 
 #include <stdio.h>
 
-int main()
+int constants(void);
+
+int constants()
 {
     const int length = 10;
     const int width = 1;

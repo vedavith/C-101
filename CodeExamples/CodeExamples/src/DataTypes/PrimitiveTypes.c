@@ -7,7 +7,10 @@
 
 // print an integer, float and a charecter
 #include<stdio.h>
-void main()
+
+int primitiveDt(void);
+
+int primitiveDt()
 {
     int a  = 10; // Positive integer
     int b = -10; // Negitive integer
@@ -20,4 +23,14 @@ void main()
     char i = 'a'; // Char
     char j = 99; // Char
     printf("%d\n", a);
+    printf("%d\n", b);
+    printf("%d\n", c);
+    printf("%ld\n", d);
+    printf("%f\n", e);
+    printf("%f\n", f);
+    printf("%f\n", g);
+    printf("%f\n", h);
+    printf("%d\n", i);
+    printf("%d\n", j);
+    return 0;
 }

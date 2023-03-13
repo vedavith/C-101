@@ -10,7 +10,8 @@
 #define LENGTH 10
 #define WIDTH  5
 
-int main()
+int definedConst(void);
+int definedConst()
 {
    int area;
    area = LENGTH * WIDTH;

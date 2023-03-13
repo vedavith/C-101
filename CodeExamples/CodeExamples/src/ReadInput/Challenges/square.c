@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main()
+int square(void);
+int square()
 {
     int side, squareArea;
     printf("%s","Enter side length here: ");

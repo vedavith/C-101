@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB0C9BB129BF8EE100BB0AE6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BB029BF8EE100BB0AE6 /* main.c */; };
 		DB0C9BBF29BF8FFD00BB0AE6 /* Input.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BBE29BF8FFD00BB0AE6 /* Input.c */; };
+		DB0C9BC229BF915A00BB0AE6 /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BC129BF915A00BB0AE6 /* HelloWorld.c */; };
+		DB0C9BC429BF916600BB0AE6 /* PrimitiveTypes.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BC329BF916600BB0AE6 /* PrimitiveTypes.c */; };
+		DB0C9BC829BF917D00BB0AE6 /* DefinedConstants.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BC529BF917D00BB0AE6 /* DefinedConstants.c */; };
+		DB0C9BC929BF917D00BB0AE6 /* Constants.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BC729BF917D00BB0AE6 /* Constants.c */; };
+		DB0C9BCC29BF921200BB0AE6 /* Auto.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BCB29BF921200BB0AE6 /* Auto.c */; };
+		DB0C9BCE29BF98A700BB0AE6 /* AutoBlockVisibility.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BCD29BF98A700BB0AE6 /* AutoBlockVisibility.c */; };
+		DB0C9BD029BF99B300BB0AE6 /* BreakContinue.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BCF29BF99B300BB0AE6 /* BreakContinue.c */; };
+		DB0C9BD229BF9AB400BB0AE6 /* SwitchCaseDefault.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */; };
+		DB0C9BD429BF9B0C00BB0AE6 /* IfCondition.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +33,18 @@
 
 /* Begin PBXFileReference section */
 		DB0C9BAD29BF8EE100BB0AE6 /* CodeExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeExamples; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB0C9BB029BF8EE100BB0AE6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DB0C9BBD29BF8FFD00BB0AE6 /* Challenges */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Challenges; sourceTree = "<group>"; };
 		DB0C9BBE29BF8FFD00BB0AE6 /* Input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Input.c; sourceTree = "<group>"; };
+		DB0C9BC129BF915A00BB0AE6 /* HelloWorld.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
+		DB0C9BC329BF916600BB0AE6 /* PrimitiveTypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrimitiveTypes.c; sourceTree = "<group>"; };
+		DB0C9BC529BF917D00BB0AE6 /* DefinedConstants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DefinedConstants.c; sourceTree = "<group>"; };
+		DB0C9BC629BF917D00BB0AE6 /* Challenges */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Challenges; sourceTree = "<group>"; };
+		DB0C9BC729BF917D00BB0AE6 /* Constants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Constants.c; sourceTree = "<group>"; };
+		DB0C9BCB29BF921200BB0AE6 /* Auto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Auto.c; sourceTree = "<group>"; };
+		DB0C9BCD29BF98A700BB0AE6 /* AutoBlockVisibility.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AutoBlockVisibility.c; sourceTree = "<group>"; };
+		DB0C9BCF29BF99B300BB0AE6 /* BreakContinue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BreakContinue.c; sourceTree = "<group>"; };
+		DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SwitchCaseDefault.c; sourceTree = "<group>"; };
+		DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IfCondition.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				DB0C9BB829BF8F2400BB0AE6 /* src */,
-				DB0C9BB029BF8EE100BB0AE6 /* main.c */,
 			);
 			path = CodeExamples;
 			sourceTree = "<group>";
@@ -69,6 +85,7 @@
 		DB0C9BB829BF8F2400BB0AE6 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C9BCA29BF91EF00BB0AE6 /* Keywords */,
 				DB0C9BBC29BF8F9700BB0AE6 /* ReadInput */,
 				DB0C9BBB29BF8F8000BB0AE6 /* Intro-To-C */,
 				DB0C9BBA29BF8F6A00BB0AE6 /* DataTypes */,
@@ -80,6 +97,9 @@
 		DB0C9BB929BF8F4300BB0AE6 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C9BC629BF917D00BB0AE6 /* Challenges */,
+				DB0C9BC729BF917D00BB0AE6 /* Constants.c */,
+				DB0C9BC529BF917D00BB0AE6 /* DefinedConstants.c */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -87,6 +107,7 @@
 		DB0C9BBA29BF8F6A00BB0AE6 /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C9BC329BF916600BB0AE6 /* PrimitiveTypes.c */,
 			);
 			path = DataTypes;
 			sourceTree = "<group>";
@@ -94,6 +115,7 @@
 		DB0C9BBB29BF8F8000BB0AE6 /* Intro-To-C */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C9BC129BF915A00BB0AE6 /* HelloWorld.c */,
 			);
 			path = "Intro-To-C";
 			sourceTree = "<group>";
@@ -105,6 +127,18 @@
 				DB0C9BBE29BF8FFD00BB0AE6 /* Input.c */,
 			);
 			path = ReadInput;
+			sourceTree = "<group>";
+		};
+		DB0C9BCA29BF91EF00BB0AE6 /* Keywords */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C9BCB29BF921200BB0AE6 /* Auto.c */,
+				DB0C9BCD29BF98A700BB0AE6 /* AutoBlockVisibility.c */,
+				DB0C9BCF29BF99B300BB0AE6 /* BreakContinue.c */,
+				DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */,
+				DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */,
+			);
+			path = Keywords;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +199,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0C9BBF29BF8FFD00BB0AE6 /* Input.c in Sources */,
-				DB0C9BB129BF8EE100BB0AE6 /* main.c in Sources */,
+				DB0C9BC229BF915A00BB0AE6 /* HelloWorld.c in Sources */,
+				DB0C9BD029BF99B300BB0AE6 /* BreakContinue.c in Sources */,
+				DB0C9BD229BF9AB400BB0AE6 /* SwitchCaseDefault.c in Sources */,
+				DB0C9BD429BF9B0C00BB0AE6 /* IfCondition.c in Sources */,
+				DB0C9BCC29BF921200BB0AE6 /* Auto.c in Sources */,
+				DB0C9BC829BF917D00BB0AE6 /* DefinedConstants.c in Sources */,
+				DB0C9BC429BF916600BB0AE6 /* PrimitiveTypes.c in Sources */,
+				DB0C9BCE29BF98A700BB0AE6 /* AutoBlockVisibility.c in Sources */,
+				DB0C9BC929BF917D00BB0AE6 /* Constants.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +353,7 @@
 				DB0C9BB329BF8EE100BB0AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DB0C9BB429BF8EE100BB0AE6 /* Build configuration list for PBXNativeTarget "CodeExamples" */ = {
 			isa = XCConfigurationList;
@@ -320,7 +362,7 @@
 				DB0C9BB629BF8EE100BB0AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

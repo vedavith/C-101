@@ -3,7 +3,9 @@
 
 #define side 5
 
-int main() {
+int constShape(void);
+
+int constShape() {
 
    int area;
    area = side * side;

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main()
+int rectangle(void);
+int rectangle()
 {
     int length;
     int width;

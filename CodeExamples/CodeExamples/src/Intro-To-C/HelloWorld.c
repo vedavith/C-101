@@ -7,7 +7,8 @@
 
 #include <stdio.h>
 
-int main()
+int hello(void);
+int hello()
 {
     printf("%s\n", "Hello World");
     return 0;

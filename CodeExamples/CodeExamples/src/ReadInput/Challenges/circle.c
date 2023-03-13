@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main()
+int circle(void);ß
+int circle()
 {
     int const pi = 3.14;
     int radius, diameter, area, circumference;
@@ -16,4 +17,5 @@ int main()
     printf("Your radius was %d so the area of your circle was %d.", radius, area);
     printf("");
     printf("Your diameter is %d, and your circumference is %d.", diameter, circumference);
+    return 0;
 }

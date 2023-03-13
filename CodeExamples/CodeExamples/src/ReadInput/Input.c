@@ -6,7 +6,9 @@
 //
 
 #include <stdio.h>
-int main()
+int readData(void);
+
+int readData()
 {
     int testInteger;
     printf("Enter an integer: ");
