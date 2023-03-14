@@ -7,7 +7,9 @@
 
 #include <stdio.h>
 
-int main()
+int autoExample(void);
+int autoExample()
+// int main()
 {
     auto int x;
     int y = 0;
