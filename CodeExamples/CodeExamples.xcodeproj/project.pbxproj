@@ -17,6 +17,7 @@
 		DB0C9BD029BF99B300BB0AE6 /* BreakContinue.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BCF29BF99B300BB0AE6 /* BreakContinue.c */; };
 		DB0C9BD229BF9AB400BB0AE6 /* SwitchCaseDefault.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */; };
 		DB0C9BD429BF9B0C00BB0AE6 /* IfCondition.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */; };
+		DB0C9BD729BFE62B00BB0AE6 /* ImplicitCasting.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		DB0C9BCF29BF99B300BB0AE6 /* BreakContinue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BreakContinue.c; sourceTree = "<group>"; };
 		DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SwitchCaseDefault.c; sourceTree = "<group>"; };
 		DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IfCondition.c; sourceTree = "<group>"; };
+		DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ImplicitCasting.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		DB0C9BB829BF8F2400BB0AE6 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C9BD529BFE5F500BB0AE6 /* Typecasting */,
 				DB0C9BCA29BF91EF00BB0AE6 /* Keywords */,
 				DB0C9BBC29BF8F9700BB0AE6 /* ReadInput */,
 				DB0C9BBB29BF8F8000BB0AE6 /* Intro-To-C */,
@@ -139,6 +142,14 @@
 				DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */,
 			);
 			path = Keywords;
+			sourceTree = "<group>";
+		};
+		DB0C9BD529BFE5F500BB0AE6 /* Typecasting */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */,
+			);
+			path = Typecasting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			files = (
 				DB0C9BBF29BF8FFD00BB0AE6 /* Input.c in Sources */,
 				DB0C9BC229BF915A00BB0AE6 /* HelloWorld.c in Sources */,
+				DB0C9BD729BFE62B00BB0AE6 /* ImplicitCasting.c in Sources */,
 				DB0C9BD029BF99B300BB0AE6 /* BreakContinue.c in Sources */,
 				DB0C9BD229BF9AB400BB0AE6 /* SwitchCaseDefault.c in Sources */,
 				DB0C9BD429BF9B0C00BB0AE6 /* IfCondition.c in Sources */,
