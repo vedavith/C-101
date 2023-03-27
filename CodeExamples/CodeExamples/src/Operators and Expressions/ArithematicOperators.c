@@ -10,27 +10,15 @@
 int main()
 {
     /* local variable definition */
-    char grade = 'B';
+    char operation = 'A';
 
-    switch(grade) {
+    switch(operation) {
        case 'A' :
-          printf("Excellent!\n" );
-          break;
-       case 'B' :
-       case 'C' :
-          printf("Well done\n" );
-          break;
-       case 'D' :
-          printf("You passed\n" );
-          break;
-       case 'F' :
-          printf("Better try again\n" );
+          printf("%d\n",10+20);
           break;
        default :
-          printf("Invalid grade\n" );
+          printf("Invalid operation\n" );
     }
-    
-    printf("Your grade is  %c\n", grade );
-    
+        
 }
 
