@@ -18,6 +18,7 @@
 		DB0C9BD229BF9AB400BB0AE6 /* SwitchCaseDefault.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */; };
 		DB0C9BD429BF9B0C00BB0AE6 /* IfCondition.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */; };
 		DB0C9BD729BFE62B00BB0AE6 /* ImplicitCasting.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */; };
+		DB0C9BDA29C6FCA800BB0AE6 /* ArithematicOperators.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD929C6FCA800BB0AE6 /* ArithematicOperators.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		DB0C9BD129BF9AB400BB0AE6 /* SwitchCaseDefault.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SwitchCaseDefault.c; sourceTree = "<group>"; };
 		DB0C9BD329BF9B0C00BB0AE6 /* IfCondition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IfCondition.c; sourceTree = "<group>"; };
 		DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ImplicitCasting.c; sourceTree = "<group>"; };
+		DB0C9BD929C6FCA800BB0AE6 /* ArithematicOperators.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArithematicOperators.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		DB0C9BB829BF8F2400BB0AE6 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				DB0C9BD829C6FC7200BB0AE6 /* Operators and Expressions */,
 				DB0C9BD529BFE5F500BB0AE6 /* Typecasting */,
 				DB0C9BCA29BF91EF00BB0AE6 /* Keywords */,
 				DB0C9BBC29BF8F9700BB0AE6 /* ReadInput */,
@@ -150,6 +153,14 @@
 				DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */,
 			);
 			path = Typecasting;
+			sourceTree = "<group>";
+		};
+		DB0C9BD829C6FC7200BB0AE6 /* Operators and Expressions */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C9BD929C6FCA800BB0AE6 /* ArithematicOperators.c */,
+			);
+			path = "Operators and Expressions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 				DB0C9BCC29BF921200BB0AE6 /* Auto.c in Sources */,
 				DB0C9BC829BF917D00BB0AE6 /* DefinedConstants.c in Sources */,
 				DB0C9BC429BF916600BB0AE6 /* PrimitiveTypes.c in Sources */,
+				DB0C9BDA29C6FCA800BB0AE6 /* ArithematicOperators.c in Sources */,
 				DB0C9BCE29BF98A700BB0AE6 /* AutoBlockVisibility.c in Sources */,
 				DB0C9BC929BF917D00BB0AE6 /* Constants.c in Sources */,
 			);

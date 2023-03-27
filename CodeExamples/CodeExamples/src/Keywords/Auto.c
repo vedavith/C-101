@@ -11,7 +11,7 @@ int autoExample(void);
 int autoExample()
 // int main()
 {
-    auto int x;
+    auto int x = 0;
     int y = 0;
     printf("%d\n", x);
     printf("%d\n", y);

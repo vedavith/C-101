@@ -8,7 +8,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int implicitCastingExample(void);
+
+//int main()
+int implicitCastingExample()
 {
     // Explicit type casting
     int a,b;
