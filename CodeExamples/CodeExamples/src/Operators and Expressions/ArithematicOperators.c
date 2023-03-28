@@ -9,35 +9,38 @@
 
 int main()
 {
-    int a, b;
-    char op;
-    
-    printf("What operator would you like to use upon those two numbers?");
-    scanf("%c", &op);
+    /* local variable definition */
+   int a = 0;
+   int b = 0;
+   char op;
 
-    printf("Please tell me the first number:");
-    scanf("%d", &a);
+   printf("What operator would you like to use upon those two numbers?");
+   scanf("%c", &op);         
 
-    printf("Please tell me your second number:");
-    scanf("%d", &b);
+   printf("Please tell me the first number:");
+   scanf("%d", &a);
 
-    switch(op) {
-        case '+' :
+   printf("Please tell me your second number:");
+   scanf("%d", &b);
+
+       
+   switch(op) {
+      case '+' :
          printf("%d\n",a+b);
-          break;
+         break;
       case '-' :
          printf("%d\n",a-b);
-          break;
+         break;
       case '/' :
          printf("%d\n",a/b);
-          break;
+         break;
       case '*' :
          printf("%d\n",a*b);
-          break;
-       default :
-          printf("Invalid operation\n" );
-          break;
-    }
-        
+         break;
+      default :
+         printf("Invalid operation\n" );
+         break;
+   }
+   return 0;   
 }
 
