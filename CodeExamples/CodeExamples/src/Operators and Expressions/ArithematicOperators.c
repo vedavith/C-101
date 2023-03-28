@@ -10,47 +10,37 @@
 int main()
 {
     /* local variable definition */
-    int a = 0;
-    int b = 0;
-    char op;
+   int a = 0;
+   int b = 0;
+   char op;
 
-    printf("Please tell me the first number:");
-   // scanf("%d", &a);
+   printf("What operator would you like to use upon those two numbers?");
+   scanf("%c", &op);         
 
-    printf("Please tell me your second number:");
-   // scanf("%d", &b);
+   printf("Please tell me the first number:");
+   scanf("%d", &a);
 
-    printf("What operator would you like to use upon those two numbers?");
-   // scanf("%s", &op);
-   scanf("%d %d %s",&a,&b,&op);
-         
-         printf("%d\n",a);
-         printf("%d\n",b);
-    switch(op) {
+   printf("Please tell me your second number:");
+   scanf("%d", &b);
+
+       
+   switch(op) {
       case '+' :
-         printf("%d",a);
-         printf("%d",b);
          printf("%d\n",a+b);
-          break;
+         break;
       case '-' :
-         printf("%d",a);
-         printf("%d",b);
          printf("%d\n",a-b);
-          break;
+         break;
       case '/' :
-         printf("%d",a);
-         printf("%d",b);
          printf("%d\n",a/b);
-          break;
+         break;
       case '*' :
-         printf("%d",a);
-         printf("%d",b);
          printf("%d\n",a*b);
-          break;
-       default :
-          printf("Invalid operation\n" );
-          break;
-    }
-        
+         break;
+      default :
+         printf("Invalid operation\n" );
+         break;
+   }
+   return 0;   
 }
 
