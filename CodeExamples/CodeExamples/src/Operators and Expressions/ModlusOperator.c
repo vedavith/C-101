@@ -10,9 +10,12 @@
 // driver code
 int main()
 {
-    int a = 10, b = 2;
-    printf("mod op: %d\n", a%b);
-    printf("div op: %d\n", a/b);
-
+    int a = 0, b = 0;
+    printf("a:");
+    scanf("%d", &a);
+    printf("b:");
+    scanf("%d", &b);
+    int c = a%b;
+    printf("mod op: %d\n", c);
     return 0;
 }
