@@ -7,7 +7,9 @@
 
 #include <stdio.h>
 
-int main()
+int calculator(void);
+
+int calculator()
 {
     /* local variable definition */
    int a = 0;
@@ -23,7 +25,6 @@ int main()
    printf("Please tell me your second number:");
    scanf("%d", &b);
 
-       
    switch(op) {
       case '+' :
          printf("%d\n",a+b);
