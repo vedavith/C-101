@@ -7,7 +7,7 @@ int main() {
 
     c = a % 2;
 
-    if (c = 0)
+    if (c == 0)
     {
         printf("Your number is even!");
     }
@@ -16,7 +16,6 @@ int main() {
     {
         printf("Your number is odd.");
     }
-    
     
     
 }
