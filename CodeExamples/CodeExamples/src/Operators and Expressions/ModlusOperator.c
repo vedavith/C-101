@@ -8,7 +8,8 @@
 #include <stdio.h>
 
 // driver code
-int main()
+int modOp(void);
+int modOp()
 {
     int a = 0, b = 0;
     printf("a:");
