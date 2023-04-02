@@ -20,6 +20,7 @@
 		DB0C9BD729BFE62B00BB0AE6 /* ImplicitCasting.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */; };
 		DB0C9BDA29C6FCA800BB0AE6 /* ArithematicOperators.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BD929C6FCA800BB0AE6 /* ArithematicOperators.c */; };
 		DB0C9BDC29D3B72800BB0AE6 /* ModlusOperator.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BDB29D3B72800BB0AE6 /* ModlusOperator.c */; };
+		DB0C9BDE29D6477C00BB0AE6 /* PayBillCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9BDD29D6477C00BB0AE6 /* PayBillCalculator.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		DB0C9BD629BFE62B00BB0AE6 /* ImplicitCasting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ImplicitCasting.c; sourceTree = "<group>"; };
 		DB0C9BD929C6FCA800BB0AE6 /* ArithematicOperators.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArithematicOperators.c; sourceTree = "<group>"; };
 		DB0C9BDB29D3B72800BB0AE6 /* ModlusOperator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ModlusOperator.c; sourceTree = "<group>"; };
+		DB0C9BDD29D6477C00BB0AE6 /* PayBillCalculator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PayBillCalculator.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				DB0C9BD929C6FCA800BB0AE6 /* ArithematicOperators.c */,
 				DB0C9BDB29D3B72800BB0AE6 /* ModlusOperator.c */,
+				DB0C9BDD29D6477C00BB0AE6 /* PayBillCalculator.c */,
 			);
 			path = "Operators and Expressions";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				DB0C9BD229BF9AB400BB0AE6 /* SwitchCaseDefault.c in Sources */,
 				DB0C9BD429BF9B0C00BB0AE6 /* IfCondition.c in Sources */,
 				DB0C9BCC29BF921200BB0AE6 /* Auto.c in Sources */,
+				DB0C9BDE29D6477C00BB0AE6 /* PayBillCalculator.c in Sources */,
 				DB0C9BC829BF917D00BB0AE6 /* DefinedConstants.c in Sources */,
 				DB0C9BC429BF916600BB0AE6 /* PrimitiveTypes.c in Sources */,
 				DB0C9BDA29C6FCA800BB0AE6 /* ArithematicOperators.c in Sources */,
