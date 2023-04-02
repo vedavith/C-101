@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> 
 
-const 
+
+
 
 
 int main()  {
@@ -23,28 +24,27 @@ int main()  {
     printf("Please enter your Level, ranging from 1-4!");
     scanf("%d",&level);
 
-    if (level == 1)
+    switch(level)
     {
+    case 1:
         conveyance = 1000;
         entertainment = 500;
-    }
-    else if (level == 2)
-    {
+    
+    case 2:
+    
         conveyance = 750;
         entertainment = 200;
-    }
-    else if (level == 3)
-    {
+    
+    case 3:
+    
         conveyance = 1000;
         entertainment = 500;
-    }
     
-    else if (level == 4)
-    {
+    
+    case 4:
         conveyance = 250;
         entertainment = 0;
     }
-
     basicPay = conveyance + entertainment;
     houseRent = basicPay * 0.25;
     int perks = conveyance + entertainment;
@@ -84,20 +84,6 @@ int main()  {
 
 
 
-    
-    
-
-
-    
-
-
-    
-
-
-
-    
-    
-    
     
     
     
