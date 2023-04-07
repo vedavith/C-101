@@ -9,10 +9,10 @@ int main() {
         printf("Invalid key. Please try again later.");
         return 0;
     }
-    else if (key != answer1) {
+    if (key != answer1) {
         printf("Unfortunately, your answer is wrong. Try again later.");
     }
-    else if ((key == answer1) || (key == answer2)) {
+    if ((key == answer1) || (key == answer2)) {
         printf("Good job! you have unlocked the locker!");
     }
     
