@@ -17,6 +17,7 @@
 #define EA4 0;
 
 // Driver
+//int payBillCalculator(void);
 int main()
 {
     int level, jobnumber;
