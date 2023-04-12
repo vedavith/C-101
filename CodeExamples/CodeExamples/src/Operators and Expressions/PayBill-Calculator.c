@@ -1,9 +1,5 @@
 #include <stdio.h> 
 
-
-
-
-
 int main()  {
     int JobNumber, level, conveyance = 0, entertainment = 0, basicPay = 0, grossSalary, houseRent, incomeTax, netSalary;
     printf("Welcome to the pay-bill calculator for Plant Employees! Please state your 4 digit Job Number on your welcome sheet:");
@@ -24,28 +20,37 @@ int main()  {
     printf("Please enter your Level, ranging from 1-4!");
     scanf("%d",&level);
 
+    if (level < 1 || level > 4) {
+        printf("Error");
+        return 0;
+    }
+    
     switch(level)
     {
     case 1:
         conveyance = 1000;
         entertainment = 500;
-    
+        break;
     case 2:
-    
         conveyance = 750;
         entertainment = 200;
-    
+        break;
     case 3:
-    
         conveyance = 1000;
         entertainment = 500;
-    
-    
+        break;
     case 4:
         conveyance = 250;
         entertainment = 0;
+        break;
+    default:
+        conveyance = 0;
+        entertainment = 0;
+        break;
     }
+
     basicPay = conveyance + entertainment;
+    
     houseRent = basicPay * 0.25;
     int perks = conveyance + entertainment;
 
