@@ -17,8 +17,9 @@
 #define EA4 0;
 
 // Driver
-//int payBillCalculator(void);
-int main()
+int payBillCalculator(void);
+int payBillCalculator()
+//int main()
 {
     int level, jobnumber;
     float gross, basic, house_rent, perks, net, incometax;
