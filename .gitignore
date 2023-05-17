@@ -54,3 +54,6 @@ dkms.conf
 
 # Xcode files
 /CodeExamples/CodeExamples.xcodeproj
+
+#VSCode Files
+.vscode
