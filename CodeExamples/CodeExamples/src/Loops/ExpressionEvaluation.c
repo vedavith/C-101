@@ -1,22 +1,18 @@
 #include <stdio.h>
 // Write a program to evaluate the equation y=x^n, where n is a non-negitive integer.
-int main() {  
-    long long x, y = 1, n, count = 1;
-    printf("Please give a number:");
-    scanf("%lld", &x);
+int main() {
+    int count, n;
+    float x, y;
+    printf("Enter the values of x and n :");
+    scanf("%f %d", &x, &n);
 
-    printf("Please give another number:");
-    scanf("%lld", &n);
-    
-    while(count <= n) {
-        y = x * y;
+    y = 1.0; // initialize
+    count = 1;
+    while (count <= n) { // Test
+        y = y * x;
         count++;
     }
-
-    printf("%lld", y);
-
-
-   
-
-
+    
+    printf("\nx = %f; n = %d; x^n = %f\n", x, n, y);
+    return 0;
 }
