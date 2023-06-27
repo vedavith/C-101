@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Write a program to evaluate the equation y=x^n, where n is a non-negitive integer.
 int main() {
     int count, n;
     float x, y;
