@@ -2,8 +2,8 @@
 
 // driver
 int main() {
-    // compile initialization - int array-name[size] = {list of values};
-    //int number[4] = {1, 2, 3, 4};
+    // compile time initialization - int array-name[size] = {list of values};
+    int number[4] = {1, 2, 3, 4};
 
     // run time initialization - We initialize the array at the run time
     int numbers[5];
